@@ -1,5 +1,5 @@
 #!/bin/bash
-REPOSLIM="https://raw.githubusercontent.com/Diah082/vip/main/"
+REPOSLIM="https://raw.githubusercontent.com/Bangjago2/comelo/main/"
 wget -q -O /usr/bin/limit-ip "${REPOSLIM}install/limit-ip"
 chmod +x /usr/bin/*
 cd /usr/bin
@@ -26,4 +26,5 @@ systemctl enable --now limitshadowsocks
 systemctl start limitvmess
 systemctl start limitvless
 systemctl start limittrojan
+
 systemctl start limitshadowsocks
